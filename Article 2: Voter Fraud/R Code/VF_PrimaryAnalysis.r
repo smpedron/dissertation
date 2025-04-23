@@ -1,5 +1,5 @@
 ## Primary Analysis File, Voter Fraud Paper (Prolific Sample)
-## Conjoing Analysis + Topic Model
+## Conjoint Analysis + Topic Model
 ## Stephanie Pedron (pedron.2@osu.edu)
 
 ## R version 4.2.2 (2022-10-31 ucrt) -- "Innocent and Trusting"
