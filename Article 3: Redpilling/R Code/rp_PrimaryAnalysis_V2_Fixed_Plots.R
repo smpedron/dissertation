@@ -350,7 +350,7 @@ all_effects <- subgroup_effects %>%
 # Only keep estimates 3 and 4 per panel
 filtered_effects <- all_effects %>%
   group_by(panel) %>%
-  slice(1:4) %>%
+  slice(1:3) %>%
   ungroup()
 
 filtered_effects <- filtered_effects %>%
@@ -383,7 +383,7 @@ all_effects <- subgroup_effects %>%
   mutate(panel = factor(panel, levels = c("Racial Identity\nCommitment: Low", "Racial Identity\nCommitment: High")))
 filtered_effects <- all_effects %>%
   group_by(panel) %>%
-  slice(1:4) %>%
+  slice(1:3) %>%
   ungroup()
 
 filtered_effects <- filtered_effects %>%
@@ -431,7 +431,7 @@ all_effects <- subgroup_effects %>%
 
 filtered_effects <- all_effects %>%
   group_by(panel) %>%
-  slice(1:4) %>%
+  slice(1:3) %>%
   ungroup()
 
 filtered_effects <- filtered_effects %>%
@@ -465,7 +465,7 @@ all_effects <- subgroup_effects %>%
 
 filtered_effects <- all_effects %>%
   group_by(panel) %>%
-  slice(1:4) %>%
+  slice(1:3) %>%
   ungroup()
 
 filtered_effects <- filtered_effects %>%
